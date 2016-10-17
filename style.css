@@ -1,0 +1,59 @@
+/* Styles go here */
+
+body {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
+  color: white;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+#container {
+  background-image: url('images/monument-valley-1593318_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  text-align: center;
+  margin: auto;
+  height: 80%;
+  width: 60%;
+}
+
+h1 {
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+}
+
+h3 {
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.line {
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  opacity: 0;
+}
+
+.fade {
+  animation-name: example;
+  animation-duration: 10s;
+}
