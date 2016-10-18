@@ -1,8 +1,6 @@
-// Code goes here
-
-function hideObject() {
-  var audio = document.getElementById('gentle1');
-  //trying fancy version thanks to: http://patrickmuff.ch/blog/2014/03/12/for-loop-with-delay-in-javascript/
+function playScript() {
+  var audio = document.getElementById('gentle');
+  //thanks to: http://patrickmuff.ch/blog/2014/03/12/for-loop-with-delay-in-javascript/
   var maxLoops = 18;
   var counter = 0;
 
