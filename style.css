@@ -1,6 +1,7 @@
 /* Styles go here */
 
 body {
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -25,12 +26,8 @@ body {
   width: 60%;
 }
 
-h1 {
-  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
-}
-
-h3 {
-  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+p {
+  opacity: 0;
 }
 
 @keyframes example {
@@ -46,11 +43,6 @@ h3 {
   100% {
     opacity: 0;
   }
-}
-
-.line {
-  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
-  opacity: 0;
 }
 
 .fade {
